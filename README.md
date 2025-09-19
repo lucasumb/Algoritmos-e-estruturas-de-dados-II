@@ -5,6 +5,7 @@ Repositório dedicado aos projetos e estudos da disciplina de Algoritmos e Estru
 **Autor:** Lucas de Oliveira Umbelino
 
 **Professor:** Ivanovitch Medeiros Dantas da Silva
+
 ---
 
 ## 📂 Estrutura do Repositório
