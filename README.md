@@ -8,7 +8,7 @@ Repositório dedicado aos projetos e estudos da disciplina de Algoritmos e Estru
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 
 Os projetos estão organizados em pastas, cada uma correspondendo a um tópico ou atividade específica.
 
