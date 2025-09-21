@@ -2,7 +2,7 @@ Este repositório contém o Projeto 1 para a disciplina de **Algoritmos e Estrut
 
 ---
 
-## Objetivo do Projeto
+## Objetivos
 
 1. Criar uma base de dados a partir de um problema real
 2. Transformar a base de dados em um grafo
