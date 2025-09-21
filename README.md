@@ -1,6 +1,6 @@
 # Algoritmos e Estruturas de Dados II
 
-Repositório dedicado aos projetos e estudos da disciplina de Algoritmos e Estruturas de Dados II. Aqui você encontrará implementações de algoritmos avançados, estruturas de dados complexas e soluções para os problemas propostos em aula.
+Repositório dedicado aos projetos e estudos da disciplina de Algoritmos e Estruturas de Dados II. Aqui você encontrará implementações de soluções para os problemas propostos em aula.
 
 **Autor:** Lucas de Oliveira Umbelino
 
@@ -18,4 +18,4 @@ Os projetos estão organizados em pastas, cada uma correspondendo a um tópico o
 
 #### Unidade 1
 
-* Projeto 1
+* [Projeto 01](https://github.com/lucasumb/Algoritmos-e-estruturas-de-dados-II/blob/main/Projeto01)
