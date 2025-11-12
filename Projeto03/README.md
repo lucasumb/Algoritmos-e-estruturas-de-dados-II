@@ -42,46 +42,53 @@ Eu decidir por analisar as cidades proximas a cidade em que vivo. Com isso, temo
 - São José de Mipibu, Rio Grande do Norte, Brazil
 - Nísia Floresta, Rio Grande do Norte, Brazil
 
-Começando por Natal, após plotarmos a rede das ruas junto com os nós das universidades e bibliotecas públicas, podemos perceber que os caminhos entre as universidades e bibliotecas são bastante proximas se comparada as outras cidades. Além de ter uma quantidade alta de bibliotecas comparado ao número total de universidades, resultando em 15 bibliotecas e 14 universidades.
+Começando por Natal, após plotarmos a rede de ruas junto com os nós das universidades e bibliotecas públicas, podemos perceber que os caminhos entre elas são bastante próximos, se comparado às outras cidades. Além disso, há uma quantidade alta de bibliotecas em comparação ao número total de universidades, totalizando 15 bibliotecas e 14 universidades.
 
-<center><img width="300" src="results/natal_mst.png"></center>
+<center><img width="500" src="results/natal_mst.png"></center>
 
-Em Parnamirim não foi encontrada nenhuma universidade mas possuia 51 escolas e 1 biblioteca, então decidi por ligar as escolas e bibliotecas, após plotarmos a rede das ruas junto com os nós das escolas e bibliotecas públicas, podemos perceber que devido a ter uma unica biblioteca causou uma maior distancia entre as escolas e a biblioteca. É uma região que poderia ter um maior investimento com bibliotecas públicas para suprir os alunos daquela região.
+Em Parnamirim, não foi encontrada nenhuma universidade, mas possuía 51 escolas e 1 biblioteca. Decidiu-se, então, ligar as escolas e a biblioteca. Após plotarmos a rede de ruas junto com os nós, podemos perceber que a existência de uma única biblioteca causou uma maior distância média entre as escolas e ela. É uma região que poderia receber maior investimento em bibliotecas públicas para suprir os alunos daquela região.
 
-<center><img width="300" src="results/parnamirim_mst.png"></center>
+<center><img width="500" src="results/parnamirim_mst.png"></center>
 
-Em São Gonçalo do Amarante foi encontrada 1 universidades e  2 biblioteca pública, após plotarmos a rede das ruas junto com os nós das universidades e bibliotecas, mesmo com poucas universidades e bibliotecas elas são bem espalhadas e a universidade é bem proxima a biblioteca, o que demostra uma preocupação por fornecer um local para estudos tanto para universitarios como para a população, há uma area que poderia receber uma biblioteca para suprir a necessidade da população, mas teriamos que analisar a demografia desta determianda região.
+Em São Gonçalo do Amarante, foi encontrada 1 universidade e 2 bibliotecas públicas. Após plotarmos a rede de ruas com os nós, percebe-se que, mesmo com poucas instituições, elas são bem espalhadas e a universidade é bem próxima a uma das bibliotecas, o que demonstra uma preocupação em fornecer um local para estudos tanto para universitários quanto para a população. Identifica-se também uma área que poderia receber outra biblioteca para suprir a necessidade da população, mas seria necessário analisar a demografia desta determinada região.
 
-<center><img width="300" src="results/gonçalo_mst.png"></center>
+<center><img width="500" src="results/gonçalo_mst.png"></center>
 
-Em Extremoz foi encontrada 9 universidades mas nenhuma biblioteca públicca, então decidi por ligar apenas as universidades. No geral, as universidades estão bem próximas então caso tivesse uma biblioteca seria bem util para os universitarios de Extremoz. 
+Em Extremoz, foram encontradas 9 universidades, mas nenhuma biblioteca pública. Decidiu-se, então, ligar apenas as universidades. No geral, as universidades estão bem próximas, de modo que, caso tivesse uma biblioteca, seria bem útil para os universitários de Extremoz.
 
-<center><img width="300" src="results/extremoz_mst.png"></center>
+<center><img width="500" src="results/extremoz_mst.png"></center>
 
-Em Macaíba foi encontra 1 universidade e 1 biblioteca pública, resultando em um unico caminho que ligue eles.
+Em Macaíba, foi encontrada 1 universidade e 1 biblioteca pública, resultando em um único caminho que as conecta.
 
-<center><img width="300" src="results/macaiba_mst.png"></center>
+<center><img width="500" src="results/macaiba_mst.png"></center>
 
-Em Ceará-Mirim não foi encontrada nenhuma universidade mas possuia 30 escolas e 1 biblioteca pública, então decidi por ligar as escolas e bibliotecas, após plotarmos a rede das ruas junto com os nós das escolas e bibliotecas públicas podemos perceber está centralizada no meio da rede, ao todo é proxima de bastantes escolas sendo algo bastante positivo. 
+Em Ceará-Mirim, não foi encontrada nenhuma universidade, mas possuía 30 escolas e 1 biblioteca pública. Decidiu-se, então, ligar as escolas e a biblioteca. Após plotarmos a rede de ruas com os nós, podemos perceber que ela está centralizada no meio da rede, estando próxima de muitas escolas, o que é bastante positivo.
 
-<center><img width="300" src="results/ceara_mst.png"></center>
+<center><img width="500" src="results/ceara_mst.png"></center>
 
-Em São José de Mipibu não havia universidades e bibliotecas, possuindo 2 escolas. As escolas são bem distantes entre sí.
+Em São José de Mipibu, não havia universidades nem bibliotecas, possuindo apenas 2 escolas. As escolas são bem distantes entre si.
 
-<center><img width="300" src="results/saoJose_mst.png"></center>
+<center><img width="500" src="results/saoJose_mst.png"></center>
 
-Por fim, em Nísia Floresta não havia universidades e bibliotecas, possuindo 3 escolas. As escolas são proximas entre sí, o que seria positivo para se pensar em construir uma biblioteca para suprir a população.
+Por fim, em Nísia Floresta, não havia universidades nem bibliotecas, possuindo 3 escolas. As escolas são próximas entre si, o que seria positivo para se pensar em construir uma biblioteca para suprir a população.
 
-Referente ao resultado das métricas:
+Referente aos resultados das métricas:
 
-- Comprimento total do MST (soma dos pesos das arestas no grafo completo de POIs)
-- Média do peso das arestas do MST
-- Desvio padrão do peso das arestas do MST
-- Comprimento total real da rede formada pelas rotas do MST
+Comprimento total do MST (soma dos pesos das arestas no grafo completo de POIs)
 
-<center><img width="300" src="results/mst_metrics_table.png"></center>
+Média do peso das arestas do MST
 
+Desvio padrão do peso das arestas do MST
 
+Comprimento total real da rede formada pelas rotas do MST
+
+<center><img width="800" src="results/mst_metrics_table.png"></center>
+
+Parnamirim e Ceará-Mirim destacam-se com os maiores comprimentos totais de MST (242.5 km e 146.2 km, respectivamente), indicando que seus POIs estão geograficamente mais dispersos.
+
+No desvio padrão, as cidades como Macaíba e São José de Mipibu apresentam desvio zero, pois seus mapas revelam que a MST conecta apenas dois pontos. Diferente de Ceará-Mirim que exibe o maior desvio padrão (7.80), um fato explicado pelo seu mapa, que mostra um ponto no centro e vários outros pontos muito isolados.
+
+Por outro lado, municípios como Macaíba (4.8 km) e Nísia Floresta (5.7 km) demonstram a menor dispersão, com pontos altamente concentrados, exigindo as redes de conexão (MST) mais curtas.
 
 ### Video explicativo
 
