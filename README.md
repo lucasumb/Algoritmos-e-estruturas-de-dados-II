@@ -19,3 +19,5 @@ Os projetos estão organizados em pastas, cada uma correspondendo a um tópico o
 #### Unidade 1
 
 * [Projeto 01](https://github.com/lucasumb/Algoritmos-e-estruturas-de-dados-II/blob/main/Projeto01)
+
+* [Projeto 03](https://github.com/lucasumb/Algoritmos-e-estruturas-de-dados-II/tree/main/Projeto03)

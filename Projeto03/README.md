@@ -92,3 +92,6 @@ Por outro lado, municípios como Macaíba (4.8 km) e Nísia Floresta (5.7 km) de
 
 ### Video explicativo
 
+* [Parte 1](https://www.loom.com/share/6f824931d4ce4951873bb00f10767b6e)
+
+* [Parte 2](hhttps://www.loom.com/share/0746f21ae0d446be9b485c19aafef76c)
