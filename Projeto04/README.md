@@ -6,7 +6,9 @@ Utilizando o Gephi e bibliotecas em python, aplicar os conhecimentos vistos no c
 ## Base de dados
 
 ● A base de dados será a rede de links para o Wikipedia construída de forma similar ao apresentado na semana 11.
+
 ● A rede será mesclada (fusão de dados) a partir de 5 SEEDs de páginas de assuntos diferentes.
+
 ● O algoritmo de procura de links deverá explorar até o nível 2 (altura < 3). Reforçar, que em sala de aula foi feito uma altura inferior ao nível 2 (altura < 2).
 
 ---
