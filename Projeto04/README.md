@@ -113,7 +113,7 @@ Por fim, temos o k-core e o k-shell que tivemos um k-core (vermelho) de 25 que c
 
 ### Video explicativo
 
-* [Parte 1](https://www.loom.com/share/6f824931d4ce4951873bb00f10767b6e)
+* [Parte 1](https://www.loom.com/share/385eabbca9f44998a309ced82e85b149)
 
-* [Parte 2](https://www.loom.com/share/0746f21ae0d446be9b485c19aafef76c)
+* [Parte 2](https://www.loom.com/share/7d9bb70207f44ad9b554a2db2b56f1ff)
 
