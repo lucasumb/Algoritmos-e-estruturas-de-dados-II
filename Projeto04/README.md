@@ -16,24 +16,30 @@ Utilizando o Gephi e bibliotecas em python, aplicar os conhecimentos vistos no c
 **REQUISITO 1**
 
 ● A partir da rede construída gerar figuras similares utilizando o Gephi.
+
 ● O tamanho do vértice deverá ser proporcional a quantidade de vizinhos. As cores devem ser relacionadas com o Closeness ou Betweenness ou Eigenvector Centrality.
+
 ● Adote um layout que seja razoável perceber a diferença entre as cores do vértices. As figuras devem ser acompanhadas de descrições/explicações.
+
 ● Pontuação: 4 pontos na Unidade 2.
 
 **REQUISITO 2**
 
 ● A partir da rede construída gerar uma figura similar no gephi destacando o k-core e o k-shell da rede. O layout é de livre escolha. Os vértices devem ter um tamanho proporcional a propriedade degree. A figura deverá estar acompanhada de descrição/explicação.
+
 ● Pontuação: 3 pontos na Unidade 3.
 
 **REQUISITO 3**
 
 ● A rede deverá estar em produção de forma análoga ao explicado na Semana 11. As cores deverão ser relacionadas ao critério de comunidade e o tamanho do vértice a uma métrica de livre escolha.
+
 ● Pontuação: 1 ponto na
 Unidade 3.
 
 **REQUISITO 4**
 
 ● É notório que durante a geração da rede explorar novos links até o nível 2 (altura < 3) irá demandar uma demanda computacional maior. O trabalho irá propor uma heurística e uma estrutura de dados para tornar isso possível.
+
 ● Pontuação: 6 pontos na Unidade 3.
 
 ---
