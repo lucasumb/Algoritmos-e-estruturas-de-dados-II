@@ -57,64 +57,49 @@ As principais bibliotecas utilizadas são:
 
 ## Resultados
 
-Eu decidir por analisar as cidades proximas a cidade em que vivo. Com isso, temos as cidades de:
+Para a definição do escopo do trabalho, estabeleceu-se como tema central a Indústria de Jogos. A coleta de dados foi iniciada a partir de cinco Seeds distintas: Shigeru Miyamoto, Valve Corporation, Final Fantasy, Minecraft e Esports.
 
-- Natal, Rio Grande do Norte, Brazil
-- Parnamirim, Rio Grande do Norte, Brazil
-- São Gonçalo do Amarante, Rio Grande do Norte, Brazil
-- Extremoz, Rio Grande do Norte, Brazil
-- Macaíba, Rio Grande do Norte, Brazil
-- Ceará-Mirim, Rio Grande do Norte, Brazil
-- São José de Mipibu, Rio Grande do Norte, Brazil
-- Nísia Floresta, Rio Grande do Norte, Brazil
+Para enfrentar o desafio de alta demanda computacional ao explorar a rede até o nível 2 (altura < 3), implementamos uma heurística de priorização. Em vez de uma inserção cega, optei por ranquear os links adjacentes antes de adicioná-los à fila de processamento. Essa abordagem otimizou a coleta, resultando em uma busca focada especificamente em páginas da Wikipedia relacionadas à indústria de jogos.
 
-Começando por Natal, após plotarmos a rede de ruas junto com os nós das universidades e bibliotecas públicas, podemos perceber que os caminhos entre elas são bastante próximos, se comparado às outras cidades. Além disso, há uma quantidade alta de bibliotecas em comparação ao número total de universidades, totalizando 15 bibliotecas e 14 universidades.
+Indo agora para o Gephi, utilizei para mostrar a rede de cada seed e por fim, a união das seeds. Começando pela seed Shigeru Miyamoto:
 
-<center><img width="500" src="results/natal_mst.png"></center>
+<center><img width="500" src="results/cna1.png"></center>
 
-Em Parnamirim, não foi encontrada nenhuma universidade, mas possuía 51 escolas e 1 biblioteca. Decidiu-se, então, ligar as escolas e a biblioteca. Após plotarmos a rede de ruas junto com os nós, podemos perceber que a existência de uma única biblioteca causou uma maior distância média entre as escolas e ela. É uma região que poderia receber maior investimento em bibliotecas públicas para suprir os alunos daquela região.
+Em seguida a seed Valve Corporation:
 
-<center><img width="500" src="results/parnamirim_mst.png"></center>
+<center><img width="500" src="results/cna2.png"></center>
 
-Em São Gonçalo do Amarante, foi encontrada 1 universidade e 2 bibliotecas públicas. Após plotarmos a rede de ruas com os nós, percebe-se que, mesmo com poucas instituições, elas são bem espalhadas e a universidade é bem próxima a uma das bibliotecas, o que demonstra uma preocupação em fornecer um local para estudos tanto para universitários quanto para a população. Identifica-se também uma área que poderia receber outra biblioteca para suprir a necessidade da população, mas seria necessário analisar a demografia desta determinada região.
+Em seguida a seed Final Fantasy:
 
-<center><img width="500" src="results/gonçalo_mst.png"></center>
+<center><img width="500" src="results/cna3.png"></center>
 
-Em Extremoz, foram encontradas 9 universidades, mas nenhuma biblioteca pública. Decidiu-se, então, ligar apenas as universidades. No geral, as universidades estão bem próximas, de modo que, caso tivesse uma biblioteca, seria bem útil para os universitários de Extremoz.
+Em seguida a seed Minecraft:
 
-<center><img width="500" src="results/extremoz_mst.png"></center>
+<center><img width="500" src="results/cna4.png"></center>
 
-Em Macaíba, foi encontrada 1 universidade e 1 biblioteca pública, resultando em um único caminho que as conecta.
+Em seguida a seed Esports:
 
-<center><img width="500" src="results/macaiba_mst.png"></center>
+<center><img width="500" src="results/cna5.png"></center>
 
-Em Ceará-Mirim, não foi encontrada nenhuma universidade, mas possuía 30 escolas e 1 biblioteca pública. Decidiu-se, então, ligar as escolas e a biblioteca. Após plotarmos a rede de ruas com os nós, podemos perceber que ela está centralizada no meio da rede, estando próxima de muitas escolas, o que é bastante positivo.
+Em seguida a união de todas as seeds:
 
-<center><img width="500" src="results/ceara_mst.png"></center>
+<center><img width="500" src="results/cna6.png"></center>
 
-Em São José de Mipibu, não havia universidades nem bibliotecas, possuindo apenas 2 escolas. As escolas são bem distantes entre si.
+Prosseguindo para a análise dos requisitos 1 e 2, observamos na primeira imagem a métrica de Betweenness Centrality. Esta visualização destaca os nós que atuam como pontes controlando o fluxo de informação na rede. O resultado valida a escolha das seeds, pois revela que nós estruturais como 'Video Game Developer' são vitais; sua remoção causaria a desconexão entre os nós, prejudicando severamente a topologia da rede.
 
-<center><img width="500" src="results/saoJose_mst.png"></center>
+<center><img width="500" src="results/Betweenness.png"></center>
 
-Por fim, em Nísia Floresta, não havia universidades nem bibliotecas, possuindo 3 escolas. As escolas são próximas entre si, o que seria positivo para se pensar em construir uma biblioteca para suprir a população.
+Seguindo para Closeness Centrality, vimos que o centro da rede tem alta proximidade ,chegando a qualquer lugar rápido, enquanto os nós vermelhos na "cauda" esquerda estão distantes.
 
-Referente aos resultados das métricas:
+<center><img width="500" src="results/Closeness.png"></center>
 
-Comprimento total do MST (soma dos pesos das arestas no grafo completo de POIs)
+<center><img width="500" src="results/Closeness2.png"></center>
 
-Média do peso das arestas do MST
+Seguindo para Eigenvector Centrality, ela nos revela a influência real na rede, nós como "Video Game Console" e "Casual Game" aparecem com destaque. Sendo uma referência central dessa rede mesclada.
 
-Desvio padrão do peso das arestas do MST
+<center><img width="500" src="results/Eigenvector.png"></center>
 
-Comprimento total real da rede formada pelas rotas do MST
-
-<center><img width="800" src="results/mst_metrics_table.png"></center>
-
-Parnamirim e Ceará-Mirim destacam-se com os maiores comprimentos totais de MST (242.5 km e 146.2 km, respectivamente), indicando que seus POIs estão geograficamente mais dispersos.
-
-No desvio padrão, as cidades como Macaíba e São José de Mipibu apresentam desvio zero, pois seus mapas revelam que a MST conecta apenas dois pontos. Diferente de Ceará-Mirim que exibe o maior desvio padrão (7.80), um fato explicado pelo seu mapa, que mostra um ponto no centro e vários outros pontos muito isolados.
-
-Por outro lado, municípios como Macaíba (4.8 km) e Nísia Floresta (5.7 km) demonstram a menor dispersão, com pontos altamente concentrados, exigindo as redes de conexão (MST) mais curtas.
+Por fim, temos o k-core e o k-shell que 
 
 ### Video explicativo
 
