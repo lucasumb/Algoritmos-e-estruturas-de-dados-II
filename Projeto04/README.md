@@ -99,7 +99,9 @@ Seguindo para Eigenvector Centrality, ela nos revela a influência real na rede,
 
 <center><img width="500" src="results/Eigenvector.png"></center>
 
-Por fim, temos o k-core e o k-shell que 
+Por fim, temos o k-core e o k-shell que tivemos um k-core (vermelho) de 25 que contém os assuntos fundamentais e altamente interligados e um k-shell (azul) de 24 que são as "folhas" que citam os conceitos centrais. 
+
+<center><img width="500" src="results/k25shell24.png"></center>
 
 ### Video explicativo
 
